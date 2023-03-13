@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to right, #7b4397, #dc2430);
   padding: 0%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -78,6 +79,7 @@ body {
   margin-left: 1.6%;
   margin-top: 12%;
   margin-right: 40%;
+  margin-bottom: 10rem;
 }
 .home-container h1{
   font-size: 70px;
@@ -138,10 +140,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 8rem;
 }
-.team-h1{
+.teamh1{
   margin-top: 4.3em;
   color: white;
+  
 }
 .box-container{
   display: inline-flex;
@@ -177,7 +181,7 @@ body {
   flex-direction: row;
 }
 .box:hover{
-  box-shadow: 0px 15px 20px  white;
+  box-shadow: 0px 15px 20px lightslategrey;
   transform: scale(1.05, 1.05);
   transition: color 0.25s, border-color 0.45s,box-shadow 0.45s,transform 0.45s;
 }
@@ -199,7 +203,6 @@ body {
   margin-top: 1.5vh;
   margin-left: 13.5vh;
   color:#888;
-  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 2%;
@@ -213,7 +216,6 @@ body {
   margin-top: 1.5vh; 
   margin-left: 14vh; 
   color: rgb(90, 89, 89);
-  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 2%;
@@ -261,15 +263,38 @@ body {
 }
 .socials button{
   border-radius: 1.5em;
-  font-family: 'Roboto', sans-serif;
   padding: 1em 2em;
 }
 .socials .insta button:hover{
-  background-color: red;
+  background-color:#fd1d1d;
   border-color: #dc2430;
   color: white;
 }
 .socials .linkedin button:hover{
-  background-color: blue;
+  background-color: #0072b1;
   color: white;
+}
+
+.apparel-container{
+  display:flex;
+}
+.img-container{
+  margin: 50px;
+}
+.img-container:hover{
+  transform: scale(1.05, 1.05);
+  transition: color 0.25s, border-color 0.45s,box-shadow 0.45s,transform 0.45s;
+}
+
+@media screen and (max-width:792px) {
+  .apparel-container{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+
+
+  }
+}
+.backgrd-clr{
+  background-color: white;
 }

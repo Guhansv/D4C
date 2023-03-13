@@ -6,7 +6,7 @@ function Guhan(){
     <Card
     img = {Sv}
     name = 'Srivignesh'
-    role = 'Web Dev'
+    role = 'WebDev'
     insta = ''
     linkedin = ''
 
