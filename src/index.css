@@ -148,9 +148,10 @@ body {
   
 }
 .box-container{
-  display: inline-flex;
-  justify-content: space-evenly;
+  display:inline-flex;
+  justify-content:center;
   margin: 20px;
+  margin-right: 50px;
 
 }
 @media screen and (max-width:700px){
@@ -181,7 +182,7 @@ body {
   margin: 45px;
 }
 .box:hover{
-  box-shadow: 0px 15px 20px lightslategrey;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
   transform: scale(1.05, 1.05);
   transition: color 0.25s, border-color 0.45s,box-shadow 0.45s,transform 0.45s;
 }
@@ -204,26 +205,23 @@ body {
   margin-left: 13.5vh;
   color:#888;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   padding: 2%;
   display:flex;
-  justify-content: space-between;
+  justify-content:center;
   
 }
 .role{
   width:10vh;
   height: 3vh;
-  margin-top: 1.5vh; 
-  margin-left: 14vh; 
   color: rgb(90, 89, 89);
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 2%;
   align-items: center;
   align-content: center;
   margin-bottom: 4px;
-  display: inline-flex;
-
+  display: flex;
+  justify-content:center;
 }
 .socials{
   display: flex;
@@ -231,8 +229,8 @@ body {
   margin-left: 2vh;
   
 }
-.insta{
-  margin-top: 17px;
+.insta, .linkedin{
+  margin-top:10px;
   margin-left: 19px;
   width: 17.5vh;
   height:19vh ;
@@ -240,12 +238,7 @@ body {
   align-items: center;
   
 }
-.linkedin{
-  margin-top: 17px;
-  display: flex;
-  align-items: center;
 
-}
 .apparel-container{
   display:flex;
 }
@@ -261,11 +254,14 @@ body {
   .apparel-container{
       display:flex;
       flex-direction: column;
-      align-items: center;
+      align-items: stretch;
 
 
   }
 }
 .backgrd-clr{
   background-color: white;
+}
+.add-tocart {
+  margin-top: 25px;
 }
