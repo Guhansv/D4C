@@ -7,8 +7,8 @@ function Guhan(){
     img = {Sv}
     name = 'Srivignesh'
     role = 'WebDev'
-    insta = ''
-    linkedin = ''
+    insta = 'https://www.instagram.com/guhan_sv/'
+    linkedin = 'https://www.linkedin.com/in/sri-vignesh-87aa06259/'
 
     />  
     )

@@ -6,8 +6,8 @@ function Krishna(){
             img={Gd}
             name = 'Krishna'
             role = 'Designer'
-            insta = ''
-           linkedin = ''
+            insta = 'https://instagram.com/gdeeee.e?igshid=ZDdkNTZiNTM='
+           linkedin = 'https://www.linkedin.com/in/krishna-kumar-g-d-a42979249'
 
         />
     )

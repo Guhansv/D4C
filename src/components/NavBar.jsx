@@ -7,7 +7,7 @@ import Logo from '../assets/logo.svg';
     hamref.current.classList.toggle("active")
   }
   return (
-    <div className='d-nav'>
+    <div className='d-nav '>
       <nav className="navbar" id='home'>
             <div className="brand-title"><img src={Logo} alt='Brand-Logo'/></div>
             <a className="toggle-button" onClick={hamburger}>
@@ -18,11 +18,11 @@ import Logo from '../assets/logo.svg';
             </a>
             <div class="nav-links" ref={hamref}>
                 <ul>
-                    <li id=''><a >Home</a></li>
-                    <li><a >Apparels</a></li>
-                    <li><a>Team</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>Signup</a></li>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#apparels'>Apparels</a></li>
+                    <li><a href='#team'>Team</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                    <li><a className=''>Signup</a></li>
                 </ul>
             </div>
         </nav>

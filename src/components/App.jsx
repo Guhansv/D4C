@@ -14,10 +14,13 @@ function App() {
     <div>
       <NavBar/>
       <Home/>
-      <div className='title-container'><h1 className=' text-4xl justify-center text-white'>See what the hype is About</h1></div>
+      <div className='title-container'><h1 className=' text-4xl justify-center text-white' id='apparels'>See what the hype is about</h1></div>
       <Apparel/>
-      <div className='title-container'><h1 className='text-4xl flex justify-center text-white'>Meet Our Team</h1></div>
+      <div className='title-container'><h1 className='text-4xl flex justify-center text-white' id='team'>Meet Our Team</h1></div>
       <Sakkthi/> <Guhan/> <Krishna/> <RiteshKum/><RahulK/> <Sachin/>
+      <div className='title-container'><h1 className='text-4xl flex justify-center text-white' id='contact'>Reach out to us</h1></div>
+
+
     </div>
   )
 }

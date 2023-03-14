@@ -7,8 +7,8 @@ function Sakkthi() {
         img = {Cv}
         name = 'Sakkthivel'
         role = 'Designer'
-        insta = ''
-        linkedin = ''
+        insta = 'https://instagram.com/sakkthee?igshid=ZDdkNTZiNTM='
+        linkedin = 'https://www.linkedin.com/in/sakkthivel-valavan-4182b0249'
 
         />
        
