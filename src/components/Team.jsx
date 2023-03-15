@@ -10,12 +10,14 @@ function Team(){
     return(
         <div>
         <div className='title-container'><h1 className='text-4xl flex justify-center text-white' id='team'>Meet Our Team</h1></div>
+            <div className="team-container">
             <Sakkthi/>
             <Guhan/>
             <Krishna/>
             <RiteshKum/>
             <RahulK/>
             <Sachin/>
+            </div>
         </div>
     )
 }

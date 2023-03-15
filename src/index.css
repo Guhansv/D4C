@@ -152,10 +152,9 @@ body {
   justify-content:center;
   margin: 20px;
   margin-right: 50px;
-
 }
-@media screen and (max-width:700px){
-  .box-container{
+@media screen and (max-width:800px){
+  .team-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -163,7 +162,7 @@ body {
   }
 }
 @media screen and (max-width:400px) {
-  .box-container{
+  .team-container{
     display: flex;
     flex-direction: inherit;
     justify-content: center;
@@ -173,13 +172,7 @@ body {
   
 }
 
-.box-container{
-  display: inline-flex;
-  flex-direction: inherit;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 .box{
   background-color: black;
   width: 40vh;
